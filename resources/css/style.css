@@ -31,6 +31,7 @@ CONTAINER
     height: 100%;
     width: 80%;
     margin: 0 auto;
+    display: table;
 }
 
 /*
@@ -55,6 +56,7 @@ MAIN CONTENT
     border: 4px solid black;
     background: gray;
     height: 100%;
+    display: table-row;
 }
 
 /*
