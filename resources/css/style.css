@@ -44,6 +44,7 @@ MAIN CONTENT
     width: 100%;
     display: table;
     background-color: #131332;
+    display: table;
 }
 
 /*
@@ -53,7 +54,6 @@ LEFT PANEL of content area
 */
 
 #left-panel {
-    float: left;
     width: 15%;
     background-image: linear-gradient(to left, #131332, #9797c9);
     display: table-cell;
@@ -66,11 +66,11 @@ RIGHT PANEL of content area
 */
 
 #right-panel {
-    float: right;
     width: 85%;
-    border-radius: 20px 0 0 0;
-    display: table-cell;
+    border-radius: 25px 0 0 0;
+    padding: 10px 0 0 15px;
     background-color: #f8f8f8;
+    display: table-cell;
 }
 
 /*
