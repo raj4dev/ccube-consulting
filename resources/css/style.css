@@ -76,6 +76,21 @@ LEFT PANEL of content area
     width: 15%;
     background-image: linear-gradient(to left, #131332, #9797c9);
     display: table-cell;
+    padding: 1%;
+}
+
+#left-panel p .sidebartitle {
+    color: #FBDB74;
+    font-weight: 600;
+}
+
+#left-panel p .sidebartext {
+    color: #fff;
+    font-size: 0.9em;
+}
+
+#left-panel p #clock {
+    color: #fff;
 }
 
 /*
