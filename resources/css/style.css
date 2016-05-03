@@ -46,6 +46,7 @@ HEADER
 }
 
 #services-offered #company-name {
+    color: #fff;
     visibility: hidden;
 }
 
