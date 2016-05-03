@@ -22,18 +22,68 @@ CONTAINER
     margin: 0 auto;
 }
 
+
+/*
+---------------------------------------------
+HEADER
+---------------------------------------------
+*/
+
+#header-image {
+    width: auto;
+    background-image: url("../../resources/img/header/company.jpg");
+    background-repeat: repeat-x;
+    border-radius: 5px 5px 0 0;
+	height: 80px;
+}
+
+#services-offered {
+    background-color: #09092c;
+}
+
+#services-offered * {
+    display: inline-block;
+}
+
+#services-offered #company-name {
+    visibility: hidden;
+}
+
+.play-button {
+    background: #d0d0d0;
+    border-radius: 50%;
+    display: block;
+    height: 48px;
+    width: 48px;
+    margin: 0.3%;
+}
+
+.play-button::after {
+    /*Html entity right pointing triangle*/
+    content:"\25b6";
+    display: block;
+    color: #000;
+    font-weight: bold;
+    font-size: 36px;
+    text-align: center;
+}
+
+.play-button:hover {
+    background: #fff;
+}
+
+
 /*
 ---------------------------------------------
 NAVIGATION
 ---------------------------------------------
-
 */
 
 #nav {
     display: table;
     width: 100%;
     line-height: 1.8em;/*Better to use this instead of vertical padding. With padding, vertical borders will not reach the ends!*/
-    background-image: linear-gradient(to top, rgba(19,19,49, 0.8), rgba(9, 9, 44, 0.8));
+    background-image: linear-gradient(to top, rgba(9, 9, 44, 0.9), rgba(82, 82, 115, 0.9));
 }
 
 #nav a {
