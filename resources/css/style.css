@@ -155,7 +155,7 @@ RIGHT PANEL of content area
     width: 85%;
     border-radius: 25px 0 0 0;
     padding: 10px 0 0 15px;
-    background-color: #f8f8f8;
+    background-color: #fff;
     display: table-cell;
 }
 
@@ -166,5 +166,11 @@ FOOTER
 */
 
 #footer {
+    background-color: #bfb9ef;
+    border-radius: 0 0 5px 5px;
     clear: both;
+}
+
+#footer a {
+    text-decoration: none;
 }
