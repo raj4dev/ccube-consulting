@@ -81,10 +81,23 @@ NAVIGATION
 ---------------------------------------------
 */
 
+#nav ul {
+    list-style: none;
+    display: inline-table;
+    position: relative;
+}
+
+#nav ul li {
+    float: left;
+}
+
+
+/*
+
 #nav {
     display: table;
     width: 100%;
-    line-height: 1.8em;/*Better to use this instead of vertical padding. With padding, vertical borders will not reach the ends!*/
+    line-height: 1.8em;//Better to use this instead of vertical padding. With padding, vertical borders will not reach the ends!//
     background-image: linear-gradient(to top, rgba(9, 9, 44, 0.9), rgba(82, 82, 115, 0.9));
 }
 
@@ -103,6 +116,8 @@ NAVIGATION
     
     width: 20%;
 }
+
+*/
 
 
 /*
