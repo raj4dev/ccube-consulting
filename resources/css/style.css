@@ -202,6 +202,11 @@ RIGHT PANEL of content area
     box-shadow: 0.4rem 0.4rem 0.4rem #dedddd inset;
 }
 
+.para-spacer {
+    height: 2px;
+    width: 100%;
+    background-image: linear-gradient(to right, #a5a5a5, #fff);
+}
 
 /*
 ---------------------------------------------
