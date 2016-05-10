@@ -188,6 +188,11 @@ RIGHT PANEL of content area
 ---------------------------------------------
 */
 
+#right-panel span.title {
+    font-weight: 600;
+    font-size: 1.5em;
+}
+
 #right-panel {
     width: 85%;
     border-radius: 25px 0 0 0;
