@@ -88,20 +88,50 @@ NAVIGATION
 
 #nav ul {
     list-style: none;
-    display: table;
-    width: 100%; /*100% of nav bar or container.*/
-    text-align: center;/*This will center all the links in the list*/
 }
 
-#nav ul li {
-    display: table-cell;
-    width: 20%;
-    border-right: 1px solid #131332;
-}
+#nav > ul li a {
+    color: #CFCFE0;
+} 
 
 #nav ul li a {
     text-decoration: none;
-    color: #CFCFE0;
+}
+
+#nav > ul {
+    display: table;
+    width: 100%; /*100% of nav bar or container.*/
+}
+
+#nav > ul > li {
+    display: table-cell;
+    width: 20%;
+    border-right: 1px solid #131332;
+    text-align: center;/*This will center all the links in the list*/
+    position: relative;
+}
+
+#nav ul ul {
+    position: absolute;/*Critical setting! Without this, the sub menu will be inside same box as main menu li.*/
+    display: none;
+    width: 100%;
+    background-color: #fdfdfd;
+    border-left: 1px solid #8b8b8b;
+    border-right: 1px solid #8b8b8b;
+    border-top: 1px solid #8b8b8b;
+}
+
+#nav ul ul li {
+    border-bottom: 1px solid #8b8b8b;
+    line-height: 1.2em;
+}
+
+#nav ul ul li a {
+    color: #000;
+}
+
+#nav ul li:hover > ul {
+    display: block;
 }
 
 
