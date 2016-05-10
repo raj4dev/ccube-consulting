@@ -194,6 +194,7 @@ RIGHT PANEL of content area
     padding: 10px 0 0 15px;
     background-color: #fff;
     display: table-cell;
+    box-shadow: 0.4rem 0.4rem 0.4rem #dedddd inset;
 }
 
 
