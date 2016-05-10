@@ -49,13 +49,18 @@ HEADER
 
 #services-offered #company-name {
     color: #fff;
+    padding-left: 0.5%;
+    padding-right: 1%;
+    font-size: 1.6em;
+}
+
+.hidden {
     visibility: hidden;
 }
 
 .play-button {
     background: #d0d0d0;
     border-radius: 50%;
-    display: block;
     height: 48px;
     width: 48px;
 }
